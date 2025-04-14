@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<style>
+     body{
+        background-image: linear-gradient();
+        justify-content: center;
+        scroll-behavior: smooth;
+        background-color: hsl(0, 100%, 20%);
+        display: block;
+        scrollbar-width: 0px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          
+  
+  
+  
+       
+       
+        
+        
+    }
+
+    .head-services h1{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 55px;
+        
+        color:beige;
+        cursor: pointer;
+        transition: 0.5s;
+        font-size: 50px;
+
+        &:hover{
+            filter: drop-shadow(2px 0px 20px rgb(211, 211, 211 ));
+            letter-spacing: 5px;
+        }
+    }
+
+    .marquee{
+        color: rgb(211, 211, 211);
+        text-align: center;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 650;
+        width: 100%;
+        margin: 0%;
+        cursor: pointer;
+        
+        margin-bottom: 0%;
+        font-size: 1.08rem;
+       
+
+     
+        
+        
+
+    }
+
+
+.footer{
+    text-align: center;
+    color: beige;
+    background-color: hsl(0, 100%, 15%);
+    height: auto;
+   
+   
+   
+
+}
+
+.footer ul{
+    text-align: start;
+    margin: 24px;
+    padding: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor:pointer;
+
+
+}
+.footer li{
+    margin: 25px 0px;
+    transition: 0.2s;
+
+    &:hover{
+        word-spacing: 6px;
+        letter-spacing: 6px;
+    }
+}
+
+.footer img{
+    height: 25px;
+    justify-content: space-between;
+    margin: 24px;
+    cursor: default;
+    transition: 0.2s;
+
+    &:hover{
+        color: white;
+        filter: drop-shadow(2px 5px 12px white);
+        margin-top: 3px;
+        background: none;
+    }
+    
+    
+}
+.footer span{
+    font-size: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: beige;
+    cursor: default;
+}
+
+.navbar {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+
+    &:hover{
+        font-size: 16px;
+    }
+    
+}
+.section {
+    background-color: beige;
+    border: white 45rem;
+    margin: 1.5rem;
+    border-radius: 25px;
+    padding: 25px;
+    transition: 0.5s;
+
+    &:hover{
+        filter: drop-shadow(7px 5px 27px black);
+    }
+    
+}
+.section h1{
+    margin: 25px;
+    text-align: center;
+    padding: 25px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.section h2{
+    margin-bottom: 65px;
+    text-align: center;
+}
+.section span{
+    padding: 15px;
+    margin: 25px;
+    font-weight: bold;
+    text-align: justify;
+   
+    
+    
+    
+}
+.section img{
+    width: 8rem;
+    margin: auto;
+    display: block;
+    padding: 25px;
+    transition: 0.5s;
+
+    &:hover{
+        width: 9rem;
+    }
+
+}
+
+</style>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Magpie Corporation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="photo gallery.html">Photo Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="testimonials.html">Testimonials </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Contact page.html">Contact Us</a>
+              </li>
+            
+            
+           
+            
+          </div>
+        </div>
+      </nav>
+
+    
+
+      
+    <div class="head-services">
+        <h1>
+           Testimonials.
+        </h1>
+    </div> 
+    <div class="container">
+        
+    <div class="section">
+        <img src="amity.png">
+        <h1>
+            AMITY UNIVERSITY
+        </h1>
+        <h2>
+            "Professionalism at its best"
+        </h2>
+        <span>
+            The event was executed flawlessly from start to finish. The team's attention to detail and proactive communication made the entire process smooth and stress-free.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="jnu logo.png">
+        <h1>
+            Jawaharlal Nehru University (JNU)
+        </h1>
+        <h2>
+            "Best at event planning and executing"
+        </h2>
+        <span>
+            They brought a refreshing level of creativity and innovation to our university event. Every element, from decor to logistics, was handled brilliantly.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="andc.png">
+        <h1>
+            Acharya Narendra Dev College (ANDC)
+        </h1>
+        <h2>
+            "Creative, Reliable, and Impactful"
+        </h2>
+        <span>
+            We were blown away by the quality and coordination of the event. Our students and faculty were thoroughly impressed. Looking forward to more collaborations!
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="nsut.png">
+        <h1>
+            Netaji Subhas University of Technology (NSUT) 
+        </h1>
+        <h2>
+            "Exceeded Our Expectations!"
+        </h2>
+        <span>
+            They didn’t just plan an event; they created an experience. Their team integrated seamlessly with ours and ensured everything aligned with our vision.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="du.png">
+        <h1>
+            University of Delhi (DU)
+        </h1>
+        <h2>
+            "True Partners in Event Success"
+        </h2>
+        <span>
+            Thanks to their meticulous planning and vibrant execution, our university fest was a huge hit. The energy, the flow, the management—everything was spot on!
+        </span>
+
+    </div>
+
+
+
+    <div class="section">
+        <img src="negd.png">
+        <h1>
+            National e-Governance Division (NeGD)
+        </h1>
+        <h2>
+            "Stress-Free Event Execution"
+        </h2>
+        <span>
+            From budgeting to final wrap-up, everything was handled with professionalism. They respected timelines and stayed well within the planned budget.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="icgeb.png">
+        <h1>
+            International Centre for Genetic Engineering and Biotechnology (ICGEB)
+        </h1>
+        <h2>
+            "On Time, On Budget, On Point!"
+        </h2>
+        <span>
+            Their team really knows how to capture attention. Activities, performances, and even crowd control were all handled with an expert touch.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="igib.png">
+        <h1>
+            Institute of Genomics and Integrative Biology (IGIB)
+        </h1>
+        <h2>
+            "Student Engagement Was Off the Charts!"
+        </h2>
+        <span>
+            They coordinated effortlessly with our faculty, students, vendors, and security. It was evident they’re used to managing large-scale university events.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="NIC logo.png">
+        <h1>
+            National Informatics Centre (NIC)
+        </h1>
+        <h2>
+            "Our Go-To Event Partner"
+        </h2>
+        <span>
+            After this event, they’re definitely our preferred choice for any future programs. It’s rare to find such professionalism combined with creativity and warmth.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="svc logo.png">
+        <h1>
+            Sri Venkateswara College (SVC)
+        </h1>
+        <h2>
+            "Flawless Execution from Start to Finish"
+        </h2>
+        <span>
+            Their team handled every detail with precision. The event went off without a hitch — we received nothing but praise from our attendees.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="nipgr.png">
+        <h1>
+            Biotechnology Research Innovation Council – National Institute of Plant Genome Research (BRIC-NIPGR)
+        </h1>
+        <h2>
+            "Highly Professional and Organized"
+        </h2>
+        <span>
+            You can truly rely on them. Their structured approach, timely updates, and seamless coordination made the entire process a breeze.
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="csir.png">
+        <h1>
+            Council of Scientific and Industrial Research (CSIR)
+        </h1>
+        <h2>
+            "Transformed Our Vision Into Reality"
+        </h2>
+        <span>
+            We shared our event concept, and they brought it to life beyond what we imagined. Creative, passionate, and incredibly efficient!
+        </span>
+
+    </div>
+
+    <div class="section">
+        <img src="insa.png">
+        <h1>
+            Indian National Science Academy (INSA)
+        </h1>
+        <h2>
+            "They Think of Everything!"
+        </h2>
+        <span>
+            From backup plans to last-minute changes, they handled everything like pros. Their experience really shines in how smooth everything felt.
+        </span>
+
+    </div>
+</div>
+
+
+        
+
+
+
+
+
+
+
+    
+    <div class="footer">
+
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="services.html">Our Services</a>
+                
+            </li>
+            <li>
+                <a href="testimonials.html">Testimonials</a>
+            </li>
+          
+            <li>
+                
+                <a href="photo gallery.html">Photo Gallery</a>
+            </li>
+        </ul>
+
+
+        <div class="footer-images">
+            <img src="facebook logo.png" title="facebook">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" title="x">
+
+            <img src="google-plus.png" title="google plus">
+
+            <img src="https://troyredfern.com/wp-content/uploads/2021/04/new-instagram-logo-white-border-icon-png-large.png" title="instagram">
+
+           
+        </div>
+
+        
+       
+    
+        <span>© 2025 Magpie Corporation All Rights Reserved</span>
+
+    </div>
+</body>
+</html>
